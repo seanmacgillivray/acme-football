@@ -46,6 +46,7 @@ Tested and developed with Drupal 8.9.7
 * instantiate UI JS behaviours as Drupal Behaviours
 * when one filter is changed, reset the other one
 * take advantage of the ready availability of SVG logos for awesome mobile/retina sharpness
+* cache hits/misses are logged in DBlog
 
 ## Future steps
 * I harvested the SVGs pretty hastily and they need some viewbox tweaks to add padding where appropriate; alternately restructure the markup and CSS to accomplish this
@@ -53,3 +54,4 @@ Tested and developed with Drupal 8.9.7
 * theme-appropriate styling
 * add options to specify desktop and mobile grid column width and gutter in admin options form
 * add custom entities or config to hold the mappings of teams to their logos
+* caching could definitely be improved
