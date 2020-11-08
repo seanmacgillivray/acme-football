@@ -7,7 +7,7 @@
         itemSelector: '.team',
         columnWidth: '.team-sizer',
         percentPosition: true,
-        gutter: 10,
+        gutter: '.gutter-sizer',
         fitWidth: true
       });
       let $teams = $grid.find('.team');
