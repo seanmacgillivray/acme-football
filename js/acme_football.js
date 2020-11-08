@@ -5,9 +5,10 @@
       let $grid = $('.block-acme-football .football-grid').masonry({
         // options
         itemSelector: '.team',
-        columnWidth: 200,
-        percentPosition: false,
-        gutter: 10
+        columnWidth: '.team-sizer',
+        percentPosition: true,
+        gutter: 10,
+        fitWidth: true
       });
       let $teams = $grid.find('.team');
       let $filters = jQuery('.block-acme-football .football-filters');
