@@ -3,3 +3,4 @@ type: module
 description: 'Masonry grid block of football teams'
 core: 8.x
 package: 'Custom'
+version: '1.0'
