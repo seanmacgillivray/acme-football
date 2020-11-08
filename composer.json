@@ -1,5 +1,5 @@
 {
-    "name": "seanmacgillivray/acme_football",
+    "name": "drupal/acme_football",
     "type": "drupal-module",
     "description": "Masonry grid block of football teams",
     "keywords": [

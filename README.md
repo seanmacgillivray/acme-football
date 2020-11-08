@@ -4,24 +4,24 @@ Authored by Sean MacGillivray
 Tested and developed with Drupal 8.9.7
 
 ## Installation
-1. add the repo to your `composer.json` file:
+1. add the repo to your `composer.json` file, ensuring that the `composer/installers` version constraint does not conflict with your project's version constraint for that package:
 ```
  "repositories": [
 {
-         "type": "package",
-         "package": {
-           "name": "seanmacgillivray/acme-football",
-           "version": "1.0",
-           "type": "drupal-module",
-           "dist": {
-             "type": "zip",
-             "url": "https://github.com/seanmacgillivray/acme-football/archive/master.zip"
-           },
-           "require" : {
-             "composer/installers": "v1.0.6"
-           }
-         }
-       },
+            "type": "package",
+            "package": {
+                "name": "seanmacgillivray/acme_football",
+                "version": "1.0",
+                "type": "drupal-module",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/seanmacgillivray/acme-football/archive/1.0.0.zip"
+                },
+                "require" : {
+                    "composer/installers": "^1.0"
+                }
+            }
+        }
 ],
 ```
 
