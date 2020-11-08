@@ -1,0 +1,17 @@
+acme_football.default_form:
+  path: '/acme_football/form/config'
+  defaults:
+    _form: '\Drupal\acme_football\Form\DefaultForm'
+    _title: 'ACME Football Config'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+acme_football.football_controller_hello:
+  path: '/acme_football/hello/{name}'
+  defaults:
+    _controller: '\Drupal\acme_football\Controller\FootballController::getFootballGrid'
+    _title: 'FootballGrid'
+  requirements:
+    _permission: 'access content'

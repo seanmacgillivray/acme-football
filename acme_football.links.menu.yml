@@ -1,0 +1,6 @@
+acme_football.default_form:
+  title: 'ACME Football Config'
+  route_name: acme_football.default_form
+  description: 'Set API Key and Endpoint here.'
+  parent: system.admin_config_system
+  weight: 99

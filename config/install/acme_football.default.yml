@@ -1,0 +1,3 @@
+acme_football:
+  api_key: "74db8efa2a6db279393b433d97c2bc843f8e32b0"
+  api_endpoint: "http://delivery.chalk247.com/team_list/NFL.JSON"

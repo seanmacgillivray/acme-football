@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 15.714 16.028" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(422.12 -38.766)">
+  <g transform="matrix(.26458 0 0 .26458 -681.06 -60.737)">
+   <polyline points="1031.4 398.44 1031.4 398.94 1034.3 398.94 1034.3 401.13 1034.8 401.13 1034.8 405.15 1033.7 406.33 1031.5 406.33 1031.5 406.79 1029.9 406.79 1029.9 406.24 1017 406.24" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <polygon points="1025.5 420.21 1025.6 423.77 1023.5 422.95 1023.3 418.93" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <line x1="1031.4" x2="1031.4" y1="398.94" y2="402.93" style="fill:none;stroke:#000000"/>
+   <line x1="1032.3" x2="1032.3" y1="398.94" y2="402.93" style="fill:none;stroke-width:.75;stroke:#000000"/>
+   <path d="m986.85 416.28h-6.389v-.638h-1.278v-2.283h.729v-4.107l-.157.022v-12.232c2.167-18.01 20.425-20.473 20.425-20.473h8.673c19.262 2.192 22.548 19.172 22.548 19.172v2.692" style="fill:#ffffff;stroke:#774723"/>
+   <path d="m1018 416.47s.549-9.678 7.668-10.043l3.926-.091.412-.41h.685v-1.78h-1.187l-.093-7.396s-3.013-16.796-21.087-18.259c0 0-8.126-.548-11.959 1.005 0 0-12.872 3.742-14.972 16.615l.091 14.151h1.004l4.381 4.381v1.37h2.74s5.66.548 9.951 8.215c0 0 12.049 8.399 18.166-3.013z" style="fill:#f19330;stroke:#754636"/>
+   <path d="m982.74 410.44-.183-14.333c3.652-16.157 19.718-16.523 19.718-16.523h6.757c16.613 2.557 19.263 16.98 19.263 16.98l.092 6.503h.979l-.068-6.573s-3.148-16.156-20.13-18.007h-7.052s-16.841.547-20.745 17.461v14.311z" style="fill:#754636"/>
+   <polyline points="1025.1 405.12 1032.9 405.15 1033.3 405.15 1034 404.51 1034 403.96 1033.1 403.1 1025.1 403.1" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <path d="m1022.7 403.69-4.929 3.745s.687.796.959 1.802l3.97-3.081z" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <path d="m1024.4 402.86h-1.095l-.457 1.004v7.67h.365v4.381s.021.709 1.94 1.529l-.114-10.659v-3.836z" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <path d="m1017.1 407.52s-.639.819-.184 2.374c0 0 1.553 4.288 2.191 4.928 0 0 4.062 6.769 16.616 7.795v2.429l-.092 1.371s-12.965-1.553-24.831-9.859c0 0-2.193-.092-1.551 1.277 0 0 12.778 8.855 26.017 10.498v1.825h-.455v2.375h-.549v1.735h-2.922s-2.83.364-5.294-5.752c0 0 .09-.184 0-2.192l-2.191-.819v3.193s2.373 7.577 7.304 7.577h4.29v-.547h.639v-1.279h.457v-2.648h.73v-2.919h.456v-7.854s-9.402-1.642-11.959-3.376c0 0-4.746-1.278-6.848-8.217 0 .001-.34-2.191-1.824-1.915z" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <path d="m1004.8 415.13c1.783 0 3.229-1.444 3.229-3.229 0-1.778-1.445-3.226-3.229-3.226-1.781 0-3.226 1.447-3.226 3.226 0 1.785 1.445 3.229 3.226 3.229z" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <circle cx="998.72" cy="418.93" r="1.162" style="fill:#ffffff;stroke-width:.5;stroke:#000000"/>
+   <circle cx="1010.7" cy="421.4" r="1.161" style="fill:#ffffff;stroke-width:.5;stroke:#000000"/>
+   <path d="m1012.9 410.33-2.717 2.304 3.562 4.201s1.44 1.649 2.878.232c1.003-.986.045-2.213-.024-2.493z" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <polygon points="1017.1 410.6 1015 412.45 1013.4 410.88 1016.7 408.2" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <path d="m1012 414.78-3.309 2.786s-1.825.547-1.46-1.734l3.264-2.831z" style="fill:#ffffff;stroke-width:.75;stroke:#000000"/>
+   <circle cx="1014.9" cy="415.27" r="1.016" style="fill:#ffffff;stroke-width:.5;stroke:#000000"/>
+   <circle cx="1013.8" cy="414.17" r="1.017" style="fill:#ffffff;stroke-width:.5;stroke:#000000"/>
+   <line x1="1014.3" x2="1013.4" y1="413.73" y2="414.38" style="fill:#ffffff;stroke-width:.5;stroke:#000000"/>
+   <line x1="1013.5" x2="1014.2" y1="413.66" y2="414.48" style="fill:#ffffff;stroke-width:.5;stroke:#000000"/>
+   <polygon points="986.92 414.68 982.47 410.26 979.86 410.26 979.86 413.34 979.18 413.34 979.18 415.71 980.48 415.71 980.48 416.22 986.92 416.22" style="fill:none;stroke:#000000"/>
+  </g>
+ </g>
+</svg>

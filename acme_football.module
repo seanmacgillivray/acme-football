@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * Contains acme_football.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\acme_football\Controller;
+
+/**
+ * Implements hook_help().
+ */
+function acme_football_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the acme_football module.
+    case 'help.page.acme_football':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Masonry grid block of football teams') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
+/**
+ * Implements hook_theme().
+ * @throws \GuzzleHttp\Exception\GuzzleException
+ */
+function acme_football_theme() {
+  $config = \Drupal::config('acme_football.default');
+  $football = new Controller\FootballController;
+  $football_grid = $football->getFootballGrid($config->get('api_key'), $config->get('api_endpoint'));
+  return [
+    'acme_football_block' => [
+      'variables' => [
+        'content' => NULL,
+        'api_key' => $config->get('api_key'),
+        'api_endpoint' => $config->get('api_endpoint'),
+        'football_grid' => $football_grid
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

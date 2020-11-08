@@ -1,0 +1,155 @@
+$grid-square-size: 186px;
+.block-acme-football.block-acme-football-block {
+
+  & > h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    text-align: center;
+  }
+  .football-filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+    select {
+      padding: 8px;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    option, select {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 24px;
+    }
+  }
+  .football-grid {
+    .team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: $grid-square-size;
+      height: $grid-square-size;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #efefef;
+      border: 2px solid #333333;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      h3 {
+        display: block;
+        padding: 8px;
+        background-color: rgba(0,0,0,0.3);
+        width: 100%;
+        max-width: calc(#{$grid-square-size} - 16px);
+        line-height: 1;
+        font-size: 32px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 2px 2px #000;
+      }
+
+      &.team-39 {
+        background-image: url('/modules/custom/acme_football/img/packers.svg');
+      }
+      &.team-40 {
+        background-image: url('/modules/custom/acme_football/img/eagles.svg');
+      }
+      &.team-41 {
+        background-image: url('/modules/custom/acme_football/img/bengals.svg');
+      }
+      &.team-42 {
+        background-image: url('/modules/custom/acme_football/img/texans.svg');
+      }
+      &.team-43 {
+        background-image: url('/modules/custom/acme_football/img/bears.svg');
+      }
+      &.team-44 {
+        background-image: url('/modules/custom/acme_football/img/patriots.svg');
+      }
+      &.team-45 {
+        background-image: url('/modules/custom/acme_football/img/cardinals.svg');
+      }
+      &.team-46 {
+        background-image: url('/modules/custom/acme_football/img/steelers.svg');
+      }
+      &.team-47 {
+        background-image: url('/modules/custom/acme_football/img/chargers.svg');
+      }
+      &.team-48 {
+        background-image: url('/modules/custom/acme_football/img/ravens.svg');
+      }
+      &.team-49 {
+        background-image: url('/modules/custom/acme_football/img/falcons.svg');
+      }
+      &.team-50 {
+        background-image: url('/modules/custom/acme_football/img/lions.svg');
+      }
+      &.team-51 {
+        background-image: url('/modules/custom/acme_football/img/footballteam.svg');
+      }
+      &.team-52 {
+        background-image: url('/modules/custom/acme_football/img/seahawks.svg');
+      }
+      &.team-53 {
+        background-image: url('/modules/custom/acme_football/img/bills.svg');
+      }
+      &.team-54 {
+        background-image: url('/modules/custom/acme_football/img/jets.svg');
+      }
+      &.team-55 {
+        background-image: url('/modules/custom/acme_football/img/giants.svg');
+      }
+      &.team-56 {
+        background-image: url('/modules/custom/acme_football/img/cowboys.svg');
+      }
+      &.team-57 {
+        background-image: url('/modules/custom/acme_football/img/vikings.svg');
+      }
+      &.team-58 {
+        background-image: url('/modules/custom/acme_football/img/49ers.svg');
+      }
+      &.team-59 {
+        background-image: url('/modules/custom/acme_football/img/panthers.svg');
+      }
+      &.team-60 {
+        background-image: url('/modules/custom/acme_football/img/browns.svg');
+      }
+      &.team-61 {
+        background-image: url('/modules/custom/acme_football/img/broncos.svg');
+      }
+      &.team-62 {
+        background-image: url('/modules/custom/acme_football/img/titans.svg');
+      }
+      &.team-63 {
+        background-image: url('/modules/custom/acme_football/img/chiefs.svg');
+      }
+      &.team-64 {
+        background-image: url('/modules/custom/acme_football/img/rams.svg');
+      }
+      &.team-65 {
+        background-image: url('/modules/custom/acme_football/img/dolphins.svg');
+      }
+      &.team-66 {
+        background-image: url('/modules/custom/acme_football/img/raiders.svg');
+      }
+      &.team-68 {
+        background-image: url('/modules/custom/acme_football/img/buccaneers.svg');
+      }
+      &.team-67 {
+        background-image: url('/modules/custom/acme_football/img/colts.svg');
+      }
+      &.team-69 {
+        background-image: url('/modules/custom/acme_football/img/jaguars.svg');
+      }
+      &.team-70 {
+        background-image: url('/modules/custom/acme_football/img/saints.svg');
+      }
+    }
+  }
+}

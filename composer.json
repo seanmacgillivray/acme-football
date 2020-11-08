@@ -1,0 +1,13 @@
+{
+    "name": "acme_football",
+    "type": "drupal-module",
+    "description": "Masonry grid block of football teams",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/acme_football",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/acme_football",
+        "source": "http://cgit.drupalcode.org/acme_football"
+    }
+}
