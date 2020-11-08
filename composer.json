@@ -1,6 +1,6 @@
 {
-    "name": "drupal/acme_football",
-    "type": "drupal-module",
+    "name": "seanmacgillivray/acme_football",
+    "type": "drupal-custom-module",
     "description": "Masonry grid block of football teams",
     "keywords": [
     ],
