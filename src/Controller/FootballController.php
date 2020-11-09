@@ -34,7 +34,7 @@ class FootballController extends ControllerBase {
     if ($cache = \Drupal::cache()->get('acme_football_grid')) {
       \Drupal::logger('acme_football_grid')->notice('used cached data');
       $team_data = $cache->data;
-    } else {
+    } elseif ($api_endpoint && $api_key) {
       $request = $client->request('GET', $api_endpoint . '?api_key=' . $api_key);
       if ($request->getStatusCode() === 200) {
         \Drupal::logger('acme_football_grid')->notice('fetched new data from ' . $api_endpoint);

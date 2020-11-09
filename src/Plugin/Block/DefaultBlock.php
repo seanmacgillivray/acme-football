@@ -31,7 +31,7 @@ class DefaultBlock extends BlockBase {
       '#type' => 'checkbox',
       '#title' => $this->t('Show Filters?'),
       '#description' => $this->t('Check this box to show the filters.'),
-      '#default_value' => $this->configuration['show_filters'],
+      '#default_value' => isset($this->configuration['show_filters']) ? $this->configuration['show_filters'] : '',
       '#weight' => '0',
     ];
 

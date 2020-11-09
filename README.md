@@ -5,27 +5,38 @@ Tested and developed with Drupal 8.9.7
 
 ## Installation
 1. add the repo to your `composer.json` file, ensuring that the `composer/installers` version constraint does not conflict with your project's version constraint for that package:
-```
- "repositories": [
-{
-            "type": "package",
-            "package": {
-                "name": "seanmacgillivray/acme_football",
-                "version": "1.0",
-                "type": "drupal-module",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/seanmacgillivray/acme-football/archive/1.0.0.zip"
-                },
-                "require" : {
-                    "composer/installers": "^1.0"
+    ```
+     "repositories": [
+    {
+                "type": "package",
+                "package": {
+                    "name": "seanmacgillivray/acme_football",
+                    "version": "1.0",
+                    "type": "drupal-module",
+                    "dist": {
+                        "type": "zip",
+                        "url": "https://github.com/seanmacgillivray/acme-football/archive/1.0.0.zip"
+                    },
+                    "require" : {
+                        "composer/installers": "^1.0"
+                    }
                 }
             }
+    ],
+    ```
+2. add the path for drupal custom modules: 
+    ```
+    "extra": {
+               "installer-paths": {
+                   "web/core": ["type:drupal-core"],
+                   "web/libraries/{$name}": ["type:drupal-library"],
+                   "web/modules/contrib/{$name}": ["type:drupal-module"],
+                   "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+         }
         }
-],
-```
-
+    ```
 2. install the module: `composer require seanmacgillvray/acme_football`
+3. enable the module: `drush pm-enable acme_football`
 4. ensure the API Key and API Endpoint values are correct on the config page (`/acme_football/form/config`); these can be found in the default config (`config/install/acme_football.default.yml`)
 3. place the "Acme Football Masonry block" in the block layout and choose whether or not you want to display the filters
 
@@ -50,8 +61,9 @@ Tested and developed with Drupal 8.9.7
 
 ## Future steps
 * I harvested the SVGs pretty hastily and they need some viewbox tweaks to add padding where appropriate; alternately restructure the markup and CSS to accomplish this
-* Create a service to return the data to the controller
 * theme-appropriate styling
 * add options to specify desktop and mobile grid column width and gutter in admin options form
 * add custom entities or config to hold the mappings of teams to their logos
+* Create a service to return the data to the controller
 * caching could definitely be improved
+* rewrite the JS in vanilla JS

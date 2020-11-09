@@ -4,10 +4,10 @@
     "description": "Masonry grid block of football teams",
     "keywords": [
     ],
-    "homepage": "https://www.drupal.org/project/acme_football",
+    "homepage": "https://github.com/seanmacgillivray/acme-football",
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://www.drupal.org/project/issues/acme_football",
-        "source": "http://cgit.drupalcode.org/acme_football"
+        "issues": "https://github.com/seanmacgillivray/acme-football/issues",
+        "source": "https://github.com/seanmacgillivray/acme-football"
     }
 }
