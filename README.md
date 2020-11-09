@@ -42,22 +42,26 @@ Tested and developed with Drupal 8.9.7
 
 ## Assumptions
 * that a block would be a sensible way of putting the component on a page
-* that the team logos would remain relatively static and could be part of the code
-* that some level of caching would be necessary
+* that the team logos would remain relatively static and could be part of the code for v1.0
+* that some level of caching would be necessary to reduce load on the API server and shrink overall pageload times
 * that jQuery would continue to be packaged with Drupal and hence would be a safe dependency
 * that the filters for Division and Conference could be mutually exclusive as opposed to combinative
 * that CDNs for third-party assets like fonts and JS libraries were safe to use
 * that it would be desirable to have the API Endpoint and URL as admin-definable settings and for these to be exported as part of config
+* that the API response comes straight from the server and not from a CDN (no CF headers in response), and that every API request is a DB hit to the API server
+* that the module should be installable via Composer
 
 ## Solution
 * build a controller to get the data and cache it
-* build a block and use the controller to populate it
+* build a block and use the controller to populate it and do manipulation like the creation of the filter arrays
+* wrap markup with a twig template
+* use a Google Webfont via CDN to simplify 
 * use Sass + Gulp + Autoprefixer for browser cross-compatibility
-* add the module's CSS/JS assets as a library, add Masonry (and ImagesLoaded) as a custom library and dependency of the module library
-* instantiate UI JS behaviours as Drupal Behaviours
+* add the module's CSS/JS assets as a library, add Masonry (and ImagesLoaded) as a custom library and dependency of the module's library, such that they are all only loaded when needed
+* instantiate UI JS behaviours as Drupal Behaviours and manage them with once() so unnecessary/duplicative JS events/behaviours don't occur
 * when one filter is changed, reset the other one
 * take advantage of the ready availability of SVG logos for awesome mobile/retina sharpness
-* cache hits/misses are logged in DBlog
+* log cache hits/misses in DBlog to monitor cache performance
 
 ## Future steps
 * I harvested the SVGs pretty hastily and they need some viewbox tweaks to add padding where appropriate; alternately restructure the markup and CSS to accomplish this
